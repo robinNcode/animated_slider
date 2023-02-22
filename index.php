@@ -147,10 +147,11 @@
         </div>
         <!-- Silde 6 End -->
 
-        <div id="prev"> < </div>
-        <div id="next"> > </div>
+        <div id="prev" onclick="prevSlide()"> < </div>
+        <div id="next" onclick="nextSlide()"> > </div>
     </div>
 
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
