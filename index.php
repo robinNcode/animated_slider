@@ -9,12 +9,11 @@
 <body>
     <!-- Container Start -->
     <div class="feature-container">
-        <!-- Silde 1 Start -->
+        <!-- Slide 1 Start -->
         <div class="slide-container active">
             <div class="slide">
                 <div class="content">
-                    <h3>PROJECT THESIS MANAGEMENT
-                        SYSTEM</h3>
+                    <h3>PROJECT THESIS MANAGEMENT SYSTEM</h3>
                     <p>
                         The Project-Thesis Management
                         System is a cloud-based solution that
@@ -26,13 +25,13 @@
                     </p>
                 </div>
                 <div class="image">
-                    <img src="./img/casual-life-3d-graduates-hat-and-books.png" alt="">
+                    <img src="./img/home/casual-life-3d-graduates-hat-and-books.png" alt="">
                 </div>
             </div>
         </div>
-        <!-- Silde 1 End -->
+        <!-- Slide 1 End -->
 
-        <!-- Silde 2 Start -->
+        <!-- Slide 2 Start -->
         <div class="slide-container">
             <div class="slide">
                 <div class="content">
@@ -56,9 +55,9 @@
                 </div>
             </div>
         </div>
-        <!-- Silde 2 End -->
+        <!-- Slide 2 End -->
 
-        <!-- Silde 3 Start -->
+        <!-- Slide 3 Start -->
         <div class="slide-container">
             <div class="slide">
                 <div class="content">
@@ -79,9 +78,9 @@
                 </div>
             </div>
         </div>
-        <!-- Silde 3 End -->
+        <!-- Slide 3 End -->
 
-        <!-- Silde 4 Start -->
+        <!-- Slide 4 Start -->
         <div class="slide-container">
             <div class="slide">
                 <div class="content">
@@ -100,9 +99,9 @@
                 </div>
             </div>
         </div>
-        <!-- Silde 4 End -->
+        <!-- Slide 4 End -->
 
-        <!-- Silde 5 Start -->
+        <!-- Slide 5 Start -->
         <div class="slide-container">
             <div class="slide">
                 <div class="content">
@@ -122,9 +121,9 @@
                 </div>
             </div>
         </div>
-        <!-- Silde 5 End -->
+        <!-- Slide 5 End -->
 
-        <!-- Silde 6 Start -->
+        <!-- Slide 6 Start -->
         <div class="slide-container">
             <div class="slide">
                 <div class="content">
@@ -145,7 +144,7 @@
                 </div>
             </div>
         </div>
-        <!-- Silde 6 End -->
+        <!-- Slide 6 End -->
 
         <div id="prev" onclick="prevSlide()"> < </div>
         <div id="next" onclick="nextSlide()"> > </div>

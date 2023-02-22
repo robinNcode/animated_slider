@@ -17,9 +17,3 @@ function prevSlide() {
 
 // auto play
 setInterval(nextSlide, 5000); // 5 seconds
-
-
-
-
-
-
