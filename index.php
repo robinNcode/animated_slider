@@ -103,8 +103,7 @@
         <div class="slide-container">
             <div class="slide">
                 <div class="content">
-                    <h3>SCHEDULE ASSIGN AND
-                        ATTENDANCE</h3>
+                    <h3>SCHEDULE ASSIGN AND ATTENDANCE</h3>
                     <p>
                         Scheduling notifications via email
                         and storing attendance helps in
@@ -125,8 +124,7 @@
         <div class="slide-container">
             <div class="slide">
                 <div class="content">
-                    <h3>PUBLISHED PROJECT
-                        THESIS</h3>
+                    <h3>PUBLISHED PROJECT THESIS</h3>
                     <p>
                         Publishing project theses online
                         enables easy access and analysis by
