@@ -1,8 +1,8 @@
-.container {
+.feature-container {
     position: relative;
 }
 
-.container .slide-container .slide{
+.feature-container .slide-container .slide{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -12,7 +12,7 @@
     padding-bottom: 70px;
 }
 
-.container .slide-container .slide .content{
+.feature-container .slide-container .slide .content{
     flex: 1 1 350px;
     animation: slideContent .4s linear .6s backwards;
 }
@@ -24,11 +24,11 @@
     }
 }
 
-.container .slide-container .slide .image{
+.feature-container .slide-container .slide .image{
     flex: 1 1 500px;
 }
 
-.container .slide-container .slide .image img{
+.feature-container .slide-container .slide .image img{
     width: 100%;
     animation: slideImage .4s linear;
 }
@@ -40,30 +40,30 @@
     }
 }
 
-.container .slide-container .slide .content h3{
+.feature-container .slide-container .slide .content h3{
     font-size: 42px;
     color: #710684FF;
 }
 
-.container .slide-container .slide .content p{
+.feature-container .slide-container .slide .content p{
     font-size: 20px;
     color: #2c0b31;
 }
 
-.container .slide-container{
+.feature-container .slide-container{
     display: none;
 }
 
-.container .slide-container.active{
+.feature-container .slide-container.active{
     display: block;
 }
 
-.container .slide-container{
+.feature-container .slide-container{
     background: linear-gradient(90deg, #fff 60%, #710684FF 40%);
 }
 
-.container #prev,
-.container #next{
+.feature-container #prev,
+.feature-container #next{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -79,26 +79,26 @@
     border-radius: 30%;
 }
 
-.container #prev:hover,
-.container #next:hover{
+.feature-container #prev:hover,
+.feature-container #next:hover{
     background-color: #666;
 }
 
-.container #prev{
+.feature-container #prev{
     left: 20px;
 }
 
-.container #next{
+.feature-container #next{
     right: 20px;
 }
 
 @media(max-width: 500px){
-    .container #prev{
+    .feature-container #prev{
         left: 0px;
         top: 60%;
     }
     
-    .container #next{
+    .feature-container #next{
         right: 0px;
         top: 60%;
     }

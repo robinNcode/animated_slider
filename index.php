@@ -8,7 +8,7 @@
 
 <body>
     <!-- Container Start -->
-    <div class="container">
+    <div class="feature-container">
         <!-- Silde 1 Start -->
         <div class="slide-container active">
             <div class="slide">
