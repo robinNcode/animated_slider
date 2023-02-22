@@ -76,7 +76,7 @@
     text-align: center;
     cursor: pointer;
     font-weight: bolder;
-    border-radius: 40%;
+    border-radius: 30%;
 }
 
 .container #prev:hover,
@@ -90,4 +90,16 @@
 
 .container #next{
     right: 20px;
+}
+
+@media(max-width: 500px){
+    .container #prev{
+        left: 0px;
+        top: 60%;
+    }
+    
+    .container #next{
+        right: 0px;
+        top: 60%;
+    }
 }
