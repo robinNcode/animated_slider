@@ -147,8 +147,8 @@
         </div>
         <!-- Silde 6 End -->
 
-        <div class="prev"></div>
-        <div class="next"></div>
+        <div id="prev"> < </div>
+        <div id="next"> > </div>
     </div>
 
 </body>

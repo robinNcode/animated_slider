@@ -41,3 +41,37 @@
 .container .slide-container.active{
     display: block;
 }
+
+.container .slide-container{
+    background: linear-gradient(90deg, #fff 60%, #710684FF 40%);
+}
+
+.container #prev,
+.container #next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    background: #2c0b31;
+    height: 50px;
+    width: 40px;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 40%;
+}
+
+.container #prev:hover,
+.container #next:hover{
+    background-color: #666;
+}
+
+.container #prev{
+    left: 20px;
+}
+
+.container #next{
+    right: 20px;
+}
