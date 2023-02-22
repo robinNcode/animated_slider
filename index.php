@@ -3,13 +3,14 @@
 
 <head>
     <title>Animated Slider</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!-- Container Start -->
     <div class="container">
         <!-- Silde 1 Start -->
-        <div class="slide-container">
+        <div class="slide-container active">
             <div class="slide">
                 <div class="content">
                     <h3>PROJECT THESIS MANAGEMENT
@@ -30,6 +31,7 @@
             </div>
         </div>
         <!-- Silde 1 End -->
+
         <!-- Silde 2 Start -->
         <div class="slide-container">
             <div class="slide">
@@ -78,6 +80,7 @@
             </div>
         </div>
         <!-- Silde 3 End -->
+
         <!-- Silde 4 Start -->
         <div class="slide-container">
             <div class="slide">
@@ -120,6 +123,7 @@
             </div>
         </div>
         <!-- Silde 5 End -->
+
         <!-- Silde 6 Start -->
         <div class="slide-container">
             <div class="slide">
@@ -142,6 +146,9 @@
             </div>
         </div>
         <!-- Silde 6 End -->
+
+        <div class="prev"></div>
+        <div class="next"></div>
     </div>
 
 </body>
